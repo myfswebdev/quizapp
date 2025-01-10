@@ -1,5 +1,5 @@
 {
-  "name": "quizapp",
+  "name": "quizapp-client",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,7 +14,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "npm run build:react && npm run build:server",
+    "build:react": "react-scripts build",
+    "build:server": "node server/server.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -37,3 +39,4 @@
     ]
   }
 }
+
