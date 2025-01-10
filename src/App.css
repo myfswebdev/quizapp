@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+
+.quiz {
+  margin: 20px;
+}
+
+.question-section {
+  margin-bottom: 20px;
+}
+
+.answer-section button {
+  margin: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.answer-section button.selected {
+  background-color: #007bff;
+  color: white;
+}
+
+.score-section {
+  margin-top: 20px;
+}

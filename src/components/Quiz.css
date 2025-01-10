@@ -1,0 +1,125 @@
+/* Quiz container */
+.quiz {
+  margin: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Timer */
+.timer {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Question card */
+.question-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+
+/* Question count */
+.question-count {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+/* Question text */
+.question-text {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+/* Answer section */
+.answer-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+/* Answer buttons */
+.answer-section button {
+  background-color: #007bff;
+  color: white;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0;
+  width: 80%;
+  max-width: 400px;
+  font-size: 1em;
+  transition: background-color 0.3s;
+}
+
+.answer-section button:hover tr {
+  background-color: #0056b3;
+}
+
+/* Correct answer button */
+.answer-section button.correct {
+  background-color: green;
+}
+
+/* Incorrect answer button */
+.answer-section button.incorrect {
+  background-color: red;
+}
+
+/* Correct answer display */
+.correct-answer {
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+
+/* Score section */
+.score-section {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Start section */
+.start-section {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.start-section button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.start-section button:hover {
+  background-color: #0056b3;
+}
+
+.submit-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+  text-align: left;
+}
